@@ -2,6 +2,11 @@ import React from "react";
 import "./style.css";
 import Typed from "react-typed";
 
+// npm install --save-dev @iconify/react @iconify-icons/carbon
+import { Icon, InlineIcon } from '@iconify/react';
+import documentPdf from '@iconify-icons/carbon/document-pdf';
+
+
 class Container extends React.Component {
     render() {
         return (
@@ -30,6 +35,15 @@ class Container extends React.Component {
                             <p className="pt-3">
                                 <div className="share-button d-flex mx-auto d-block">
                                     <span>Hire Me</span>
+
+                                    <a
+                                        href="https://cutt.ly/UjezD5f"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+
+                                        <Icon icon={documentPdf} color="blue" width="30" height="30" />
+
+                                    </a>
                                 </div>
                             </p>
                         </div>

@@ -10,6 +10,7 @@ import chatterbox from '../../images/chatterbox.png'
 // npm install --save-dev @iconify/react @iconify-icons/ion
 import { Icon, InlineIcon } from '@iconify/react';
 import logoWebComponent from '@iconify-icons/ion/logo-web-component';
+import githubIcon from '@iconify-icons/brandico/github';
 
 
 class Project extends React.Component {
@@ -44,12 +45,8 @@ class Project extends React.Component {
                                     <div className="view view-cascade overlay zoom">
 
                                         <img src={SubHub} className="card-img-top" alt="SubHub-Food-Finder" />
-                                        {/* 
-                                <a>
 
-                                    <div className="mask rgba-white-slight"></div>
 
-                                </a> */}
 
                                     </div>
 
@@ -70,15 +67,36 @@ class Project extends React.Component {
                                         cuisines within an area from 200M to 10KM</p>
 
 
-                                        {/* <a href="https://annisapf.github.io/SubHub-Food-Finder/" target="_blank"
-                                                className="mx-2" role="button" style="color: #FF7AA2;"><i
-                                                    className="fa fa-clone left"></i> Visit
-                                        Web</a>
-                                            <a href="https://github.com/annisapf/SubHub-Food-Finder" target="_blank"
-                                                className="mx-2" role="button" style="color: #FF7AA2;"><i
-                                                    className="fab fa-github"></i>View
-                                        Code</a> */}
-                                        <Icon icon={logoWebComponent} />
+                                        <div className="col-md-12">
+
+                                            <ul className="social-network">
+
+                                                <li>
+                                                    <a
+                                                        href="https://github.com/annisapf/SubHub-Food-Finder"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={githubIcon} width="30" height="30" />
+
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        href="https://annisapf.github.io/SubHub-Food-Finder/"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={logoWebComponent} width="30" height="30" />
+
+                                                    </a>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
 
                                     </div>
 
@@ -98,11 +116,6 @@ class Project extends React.Component {
 
                                         <img src={weather} className="card-img-top" alt="" />
 
-                                        {/* <a>
-
-                                    <div className="mask rgba-white-slight"></div>
-
-                                </a> */}
 
                                     </div>
 
@@ -119,12 +132,36 @@ class Project extends React.Component {
                                         retrieves data
                                         from Open Weather Maps.</p>
 
-                                        {/* <a href="https://annisapf.github.io/Weather-Forecast/" target="_blank" className="mx-2"
-                                    role="button" style="color: #FF7AA2;"><i className="fa fa-clone left"></i> Visit
-                                        Web</a>
-                                <a href="https://github.com/annisapf/Weather-Forecast" target="_blank" className="mx-2"
-                                    role="button" style="color: #FF7AA2;"><i className="fab fa-github"></i>View
-                                        Code</a> */}
+                                        <div className="col-md-12">
+
+                                            <ul className="social-network">
+
+                                                <li>
+                                                    <a
+                                                        href="https://github.com/annisapf/Weather-Forecast"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={githubIcon} width="30" height="30" />
+
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        href="https://annisapf.github.io/Weather-Forecast/"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={logoWebComponent} width="30" height="30" />
+
+                                                    </a>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
 
                                     </div>
 
@@ -144,11 +181,6 @@ class Project extends React.Component {
 
                                         <img src={scheduler} className="card-img-top" alt="dayplanner" />
 
-                                        {/* <a>
-
-                                    <div className="mask rgba-white-slight"></div>
-
-                                </a> */}
 
                                     </div>
 
@@ -162,13 +194,38 @@ class Project extends React.Component {
                                         helps
                                         user to save
                                         events for each hour of the day.</p>
-                                        {/* 
-                                <a href="https://annisapf.github.io/Day-Planner/" target="_blank" className="mx-2"
-                                    role="button" style="color: #FF7AA2;"><i className="fa fa-clone left"></i> Visit
-                                        Web</a>
-                                <a href="https://github.com/annisapf/Day-Planner" target="_blank" className="mx-2"
-                                    role="button" style="color: #FF7AA2;"><i className="fab fa-github"></i>View
-                                        Code</a> */}
+
+
+                                        <div className="col-md-12">
+
+                                            <ul className="social-network">
+
+                                                <li>
+                                                    <a
+                                                        href="https://github.com/annisapf/Day-Planner"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={githubIcon} width="30" height="30" />
+
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        href="https://annisapf.github.io/Day-Planner/"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={logoWebComponent} width="30" height="30" />
+
+                                                    </a>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
 
                                     </div>
 
@@ -194,12 +251,6 @@ class Project extends React.Component {
 
                                         <img src={bookclub} className="card-img-top" alt="Book Club Store" />
 
-                                        {/* <a>
-
-                                    <div className="mask rgba-white-slight"></div>
-
-                                </a> */}
-
                                     </div>
 
 
@@ -213,11 +264,27 @@ class Project extends React.Component {
                                         <p className="card-text grey-text">Book Club Store is a generated-random books web
                                         apps.</p>
 
-                                        {/* 
-                                <a href="https://bookclub.store" target="_blank" className="mx-2" role="button"
-                                    style="color: #FF7AA2;"><i className="fa fa-clone left"></i> Visit
-                                        Web</a> */}
 
+                                        <div className="col-md-12">
+
+                                            <ul className="social-network">
+
+
+                                                <li>
+                                                    <a
+                                                        href="http://bookclub.store"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={logoWebComponent} width="30" height="30" />
+
+                                                    </a>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
 
                                     </div>
 
@@ -237,11 +304,7 @@ class Project extends React.Component {
 
                                         <img src={wagrup} className="card-img-top" alt="WA Grup Info" />
 
-                                        <a>
 
-                                            <div className="mask rgba-white-slight"></div>
-
-                                        </a>
 
                                     </div>
 
@@ -257,6 +320,26 @@ class Project extends React.Component {
                                 <a href="https://wagrup.info/" target="_blank" className="mx-2" role="button"
                                     style="color: #FF7AA2;"><i className="fa fa-clone left"></i> Visit
                                         Web</a> */}
+
+                                        <div className="col-md-12">
+
+                                            <ul className="social-network">
+
+                                                <li>
+                                                    <a
+                                                        href="http://wagrup.info/"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={logoWebComponent} width="30" height="30" />
+
+                                                    </a>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
 
                                     </div>
 
@@ -275,11 +358,6 @@ class Project extends React.Component {
 
                                         <img src={chatterbox} className="card-img-top" alt="Enmployer Generator" />
 
-                                        {/* <a>
-
-                                    <div className="mask rgba-white-slight"></div>
-
-                                </a>  */}
 
                                     </div>
 
@@ -291,14 +369,37 @@ class Project extends React.Component {
                                         <p className="card-text grey-text">ChatterBox is a chat apps implementing socket io
                                     </p>
 
-                                        {/* // <a href="https://github.com/annisapf/chatterbox" target="_blank" className="mx-2"
-                                    role="button" style="color: #FF7AA2;"><i className="fab fa-github"></i>View
-                                        Code</a>
 
-                                <a href="http://chatterbox.cloud:3600" target="_blank" className="mx-2" role="button"
-                                    style="color: #FF7AA2;"><i className="fa fa-clone left"></i> Visit
-                                        Web</a> */}
+                                        <div className="col-md-12">
 
+                                            <ul className="social-network">
+
+                                                <li>
+                                                    <a
+                                                        href="https://github.com/annisapf/chatterbox"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={githubIcon} width="30" height="30" />
+
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        href="http://chatterbox.cloud:3600"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+
+                                                        <Icon icon={logoWebComponent} width="30" height="30" />
+
+                                                    </a>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
                                     </div>
 
 

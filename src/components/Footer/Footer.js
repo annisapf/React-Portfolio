@@ -1,5 +1,11 @@
 import React from "react";
 
+
+import { Icon, InlineIcon } from '@iconify/react';
+import linkedinOutline from '@iconify-icons/teenyicons/linkedin-outline';
+import githubIcon from '@iconify-icons/brandico/github';
+
+
 import "./style.css";
 
 function Footer() {
@@ -20,7 +26,7 @@ function Footer() {
                                     target="_blank"
                                     rel="noopener noreferrer">
 
-                                    <i className="ion-social-github"></i>
+                                    <Icon icon={githubIcon} width="30" height="30" color="white" />
 
                                 </a>
                             </li>
@@ -31,7 +37,7 @@ function Footer() {
                                     target="_blank"
                                     rel="noopener noreferrer">
 
-                                    <i className="ion-social-linkedin"></i>
+                                    <Icon icon={linkedinOutline} width="30" height="30" color="white" />
 
                                 </a>
 
@@ -45,8 +51,14 @@ function Footer() {
 
 
 
+                <a
+                    href="http://annisa.world"
+                    target="_blank"
+                    rel="noopener noreferrer">
 
-                <p className="text-light"><strong>annisa.world</strong></p>
+                    <p className="text-light"><strong>annisa.world</strong></p>
+
+                </a>
 
             </div>
 
