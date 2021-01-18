@@ -1,5 +1,17 @@
 import React from 'react'
 
+import SubHub from '../../images/subhub.png'
+import weather from '../../images/weather-dashboard.png'
+import scheduler from '../../images/workday-scheduler.png'
+import bookclub from '../../images/book-club-store.png'
+import wagrup from '../../images/wagrupinfo.png'
+import chatterbox from '../../images/chatterbox.png'
+
+// npm install --save-dev @iconify/react @iconify-icons/ion
+import { Icon, InlineIcon } from '@iconify/react';
+import logoWebComponent from '@iconify-icons/ion/logo-web-component';
+
+
 class Project extends React.Component {
 
     render() {
@@ -31,7 +43,7 @@ class Project extends React.Component {
 
                                     <div className="view view-cascade overlay zoom">
 
-                                        <img src="images/subhub.png" className="card-img-top" alt="SubHub-Food-Finder" />
+                                        <img src={SubHub} className="card-img-top" alt="SubHub-Food-Finder" />
                                         {/* 
                                 <a>
 
@@ -66,6 +78,7 @@ class Project extends React.Component {
                                                 className="mx-2" role="button" style="color: #FF7AA2;"><i
                                                     className="fab fa-github"></i>View
                                         Code</a> */}
+                                        <Icon icon={logoWebComponent} />
 
                                     </div>
 
@@ -83,7 +96,7 @@ class Project extends React.Component {
 
                                     <div className="view view-cascade overlay zoom">
 
-                                        <img src="images/weather-dashboard.png" className="card-img-top" alt="" />
+                                        <img src={weather} className="card-img-top" alt="" />
 
                                         {/* <a>
 
@@ -129,7 +142,7 @@ class Project extends React.Component {
 
                                     <div className="view view-cascade overlay zoom">
 
-                                        <img src="images/workday-scheduler.png" className="card-img-top" alt="dayplanner" />
+                                        <img src={scheduler} className="card-img-top" alt="dayplanner" />
 
                                         {/* <a>
 
@@ -179,7 +192,7 @@ class Project extends React.Component {
 
                                     <div className="view view-cascade overlay zoom">
 
-                                        <img src="images/book-club-store.png" className="card-img-top" alt="Book Club Store" />
+                                        <img src={bookclub} className="card-img-top" alt="Book Club Store" />
 
                                         {/* <a>
 
@@ -222,7 +235,7 @@ class Project extends React.Component {
 
                                     <div className="view view-cascade overlay zoom">
 
-                                        <img src="images/wagrupinfo.png" className="card-img-top" alt="WA Grup Info" />
+                                        <img src={wagrup} className="card-img-top" alt="WA Grup Info" />
 
                                         <a>
 
@@ -260,13 +273,13 @@ class Project extends React.Component {
 
                                     <div className="view view-cascade overlay zoom">
 
-                                        {/* <img src="images/chatterbox.png" className="card-img-top" alt="Enmployer Generator" />
+                                        <img src={chatterbox} className="card-img-top" alt="Enmployer Generator" />
 
-                                <a>
+                                        {/* <a>
 
                                     <div className="mask rgba-white-slight"></div>
 
-                                </a> */}
+                                </a>  */}
 
                                     </div>
 
