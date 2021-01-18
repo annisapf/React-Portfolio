@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.b4a238fc.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.ecdcbaf0.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.ecdcbaf0.chunk.js.map",
-    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.20c617cb.js",
-    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.20c617cb.js.map",
+    "main.js": "/React-Portfolio/static/js/main.314c944f.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.314c944f.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0ce36127.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.0ce36127.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/React-Portfolio/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.807f1361.chunk.js": "/React-Portfolio/static/js/2.807f1361.chunk.js",
-    "static/js/2.807f1361.chunk.js.map": "/React-Portfolio/static/js/2.807f1361.chunk.js.map",
-    "static/js/3.e63c9825.chunk.js": "/React-Portfolio/static/js/3.e63c9825.chunk.js",
-    "static/js/3.e63c9825.chunk.js.map": "/React-Portfolio/static/js/3.e63c9825.chunk.js.map",
+    "static/js/2.b3549ed9.chunk.js": "/React-Portfolio/static/js/2.b3549ed9.chunk.js",
+    "static/js/2.b3549ed9.chunk.js.map": "/React-Portfolio/static/js/2.b3549ed9.chunk.js.map",
+    "static/js/3.aeda5115.chunk.js": "/React-Portfolio/static/js/3.aeda5115.chunk.js",
+    "static/js/3.aeda5115.chunk.js.map": "/React-Portfolio/static/js/3.aeda5115.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/React-Portfolio/static/css/2.ae9f1eb3.chunk.css.map",
     "static/css/main.b4a238fc.chunk.css.map": "/React-Portfolio/static/css/main.b4a238fc.chunk.css.map",
-    "static/js/2.807f1361.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.807f1361.chunk.js.LICENSE.txt",
+    "static/js/2.b3549ed9.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.b3549ed9.chunk.js.LICENSE.txt",
     "static/media/annisapurbandari-bw.3a974538.png": "/React-Portfolio/static/media/annisapurbandari-bw.3a974538.png",
     "static/media/book-club-store.f1968af3.png": "/React-Portfolio/static/media/book-club-store.f1968af3.png",
     "static/media/chatterbox.7877dd27.png": "/React-Portfolio/static/media/chatterbox.7877dd27.png",
@@ -35,10 +35,10 @@
     "static/media/workday-scheduler.63a1281b.png": "/React-Portfolio/static/media/workday-scheduler.63a1281b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.20c617cb.js",
+    "static/js/runtime-main.0ce36127.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.807f1361.chunk.js",
+    "static/js/2.b3549ed9.chunk.js",
     "static/css/main.b4a238fc.chunk.css",
-    "static/js/main.ecdcbaf0.chunk.js"
+    "static/js/main.314c944f.chunk.js"
   ]
 }
