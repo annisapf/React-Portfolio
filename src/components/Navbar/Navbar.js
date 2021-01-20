@@ -20,9 +20,36 @@ function Navbar() {
             </button>
 
             <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarsExample09">
-                <a className="nav-link text-info" href="/">About</a>
-                <a className="nav-link text-info" href="/portfolio">Portfolio</a>
-                <a className="nav-link text-info" href="/contact">Contact</a>
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link
+                            to="/"
+                            className={
+                                window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+                        >
+                            About
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link
+                            to="/portfolio"
+                            className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                        >
+                            Portfolio
+                        </Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link
+                            to="/contact"
+                            className={
+                                window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                        >
+                            Contact
+                        </Link>
+                    </li>
+
+                </ul>
             </div>
         </nav>
     );
